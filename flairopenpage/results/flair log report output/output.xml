@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.6.5 on win32)" generated="20200917 12:59:29.687" rpa="false">
+<suite id="s1" name="Flairopenpage" source="C:\Users\surya lakshmi\PycharmProjects\flairopenpage\tests\flairopenpage.robot">
+<test id="s1-t1" name="open flair">
+<kw name="this test case for upper and lower" library="keywords">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://eficensit-test-8b2e9.web.app/</arg>
+<arg>gc</arg>
+</arguments>
+<msg timestamp="20200917 12:59:29.973" level="INFO">Opening browser 'gc' to base url 'https://eficensit-test-8b2e9.web.app/'.</msg>
+<status status="PASS" starttime="20200917 12:59:29.973" endtime="20200917 12:59:41.278"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200917 12:59:41.279" endtime="20200917 12:59:43.446"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200917 12:59:46.449" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200917 12:59:43.446" endtime="20200917 12:59:46.449"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${sign in}</arg>
+</arguments>
+<msg timestamp="20200917 12:59:46.449" level="INFO">Clicking element '//*[@id="root"]/div/div/div/main/div[2]/div/form/button'.</msg>
+<status status="PASS" starttime="20200917 12:59:46.449" endtime="20200917 12:59:46.629"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200917 12:59:49.640" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200917 12:59:46.629" endtime="20200917 12:59:49.641"></status>
+</kw>
+<kw name="Reload Page" library="SeleniumLibrary">
+<doc>Simulates user reloading page.</doc>
+<status status="PASS" starttime="20200917 12:59:49.642" endtime="20200917 12:59:51.745"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200917 12:59:54.759" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200917 12:59:51.746" endtime="20200917 12:59:54.761"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${email}</arg>
+<arg>${upperemail}</arg>
+</arguments>
+<msg timestamp="20200917 12:59:54.762" level="INFO">Typing text 'AAAAAAAAAAAAAA' into text field '//*[@id="email"]'.</msg>
+<status status="PASS" starttime="20200917 12:59:54.761" endtime="20200917 12:59:55.058"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200917 12:59:58.070" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200917 12:59:55.058" endtime="20200917 12:59:58.070"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${pasword}</arg>
+<arg>${upperpasword}</arg>
+</arguments>
+<msg timestamp="20200917 12:59:58.072" level="INFO">Typing text 'Sasi@123' into text field '//*[@id="password"]'.</msg>
+<status status="PASS" starttime="20200917 12:59:58.071" endtime="20200917 12:59:58.320"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200917 13:00:01.325" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200917 12:59:58.321" endtime="20200917 13:00:01.325"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${sign in}</arg>
+</arguments>
+<msg timestamp="20200917 13:00:01.326" level="INFO">Clicking element '//*[@id="root"]/div/div/div/main/div[2]/div/form/button'.</msg>
+<status status="PASS" starttime="20200917 13:00:01.326" endtime="20200917 13:00:01.474"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200917 13:00:04.477" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200917 13:00:01.475" endtime="20200917 13:00:04.477"></status>
+</kw>
+<kw name="Handle Alert" library="SeleniumLibrary">
+<doc>Handles the current alert and returns its message.</doc>
+<status status="PASS" starttime="20200917 13:00:04.478" endtime="20200917 13:00:04.490"></status>
+</kw>
+<kw name="Reload Page" library="SeleniumLibrary">
+<doc>Simulates user reloading page.</doc>
+<status status="PASS" starttime="20200917 13:00:04.491" endtime="20200917 13:00:06.202"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200917 13:00:09.215" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200917 13:00:06.202" endtime="20200917 13:00:09.215"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${email}</arg>
+<arg>${loweremail}</arg>
+</arguments>
+<msg timestamp="20200917 13:00:09.216" level="INFO">Typing text 'aaaaaaaaaaaa' into text field '//*[@id="email"]'.</msg>
+<status status="PASS" starttime="20200917 13:00:09.216" endtime="20200917 13:00:09.443"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200917 13:00:12.450" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200917 13:00:09.443" endtime="20200917 13:00:12.450"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${pasword}</arg>
+<arg>${lowerpasword}</arg>
+</arguments>
+<msg timestamp="20200917 13:00:12.451" level="INFO">Typing text 'Sasi@123' into text field '//*[@id="password"]'.</msg>
+<status status="PASS" starttime="20200917 13:00:12.450" endtime="20200917 13:00:12.685"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200917 13:00:15.700" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200917 13:00:12.685" endtime="20200917 13:00:15.700"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${sign in}</arg>
+</arguments>
+<msg timestamp="20200917 13:00:15.702" level="INFO">Clicking element '//*[@id="root"]/div/div/div/main/div[2]/div/form/button'.</msg>
+<status status="PASS" starttime="20200917 13:00:15.701" endtime="20200917 13:00:15.816"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200917 13:00:18.820" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200917 13:00:15.816" endtime="20200917 13:00:18.820"></status>
+</kw>
+<kw name="Handle Alert" library="SeleniumLibrary">
+<doc>Handles the current alert and returns its message.</doc>
+<status status="PASS" starttime="20200917 13:00:18.820" endtime="20200917 13:00:18.830"></status>
+</kw>
+<kw name="Reload Page" library="SeleniumLibrary">
+<doc>Simulates user reloading page.</doc>
+<status status="PASS" starttime="20200917 13:00:18.831" endtime="20200917 13:00:20.524"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200917 13:00:23.530" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200917 13:00:20.525" endtime="20200917 13:00:23.530"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${email}</arg>
+<arg>${mismatchemail}</arg>
+</arguments>
+<msg timestamp="20200917 13:00:23.531" level="INFO">Typing text '12@ab###%%' into text field '//*[@id="email"]'.</msg>
+<status status="PASS" starttime="20200917 13:00:23.530" endtime="20200917 13:00:23.743"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200917 13:00:26.749" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200917 13:00:23.743" endtime="20200917 13:00:26.749"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${pasword}</arg>
+<arg>${mismatchpasword}</arg>
+</arguments>
+<msg timestamp="20200917 13:00:26.750" level="INFO">Typing text 'Sasi@123' into text field '//*[@id="password"]'.</msg>
+<status status="PASS" starttime="20200917 13:00:26.749" endtime="20200917 13:00:26.993"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200917 13:00:29.999" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200917 13:00:26.994" endtime="20200917 13:00:30.000"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${sign in}</arg>
+</arguments>
+<msg timestamp="20200917 13:00:30.001" level="INFO">Clicking element '//*[@id="root"]/div/div/div/main/div[2]/div/form/button'.</msg>
+<status status="PASS" starttime="20200917 13:00:30.000" endtime="20200917 13:00:30.132"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200917 13:00:33.139" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200917 13:00:30.132" endtime="20200917 13:00:33.139"></status>
+</kw>
+<kw name="Handle Alert" library="SeleniumLibrary">
+<doc>Handles the current alert and returns its message.</doc>
+<status status="PASS" starttime="20200917 13:00:33.139" endtime="20200917 13:00:33.149"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200917 13:00:36.160" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200917 13:00:33.150" endtime="20200917 13:00:36.160"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${forgot pasword}</arg>
+</arguments>
+<msg timestamp="20200917 13:00:36.161" level="INFO">Clicking element '//*[@id="for-pass"]'.</msg>
+<status status="PASS" starttime="20200917 13:00:36.160" endtime="20200917 13:00:36.346"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200917 13:00:39.360" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200917 13:00:36.346" endtime="20200917 13:00:39.360"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${forgot email}</arg>
+<arg>${forgotemailname}</arg>
+</arguments>
+<msg timestamp="20200917 13:00:39.362" level="INFO">Typing text 'farookhs@flairtechno.com' into text field '//html/body/div[6]/div[3]/div/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20200917 13:00:39.360" endtime="20200917 13:00:39.718"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200917 13:00:42.720" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200917 13:00:39.718" endtime="20200917 13:00:42.720"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${ok}</arg>
+</arguments>
+<msg timestamp="20200917 13:00:42.721" level="INFO">Clicking element '//html/body/div[6]/div[3]/div/div[2]/button[2]/span[1]'.</msg>
+<status status="PASS" starttime="20200917 13:00:42.720" endtime="20200917 13:00:42.829"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200917 13:00:45.840" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200917 13:00:42.830" endtime="20200917 13:00:45.840"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200917 13:00:45.840" endtime="20200917 13:00:48.210"></status>
+</kw>
+<status status="PASS" starttime="20200917 12:59:29.972" endtime="20200917 13:00:48.211"></status>
+</kw>
+<doc>this test case for upper and lower</doc>
+<status status="PASS" starttime="20200917 12:59:29.971" endtime="20200917 13:00:48.211" critical="yes"></status>
+</test>
+<doc>this test case for upper and lower</doc>
+<status status="PASS" starttime="20200917 12:59:29.690" endtime="20200917 13:00:48.214"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Flairopenpage">Flairopenpage</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

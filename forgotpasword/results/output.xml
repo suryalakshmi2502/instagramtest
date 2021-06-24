@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.6.5 on win32)" generated="20200915 16:45:10.637" rpa="false">
+<suite id="s1" name="Forgotpasword" source="C:\Users\surya lakshmi\PycharmProjects\forgotpasword\tests\forgotpasword.robot">
+<test id="s1-t1" name="open flair">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://eficensit-test-8b2e9.web.app/</arg>
+<arg>gc</arg>
+</arguments>
+<msg timestamp="20200915 16:45:10.809" level="INFO">Opening browser 'gc' to base url 'https://eficensit-test-8b2e9.web.app/'.</msg>
+<status status="PASS" starttime="20200915 16:45:10.809" endtime="20200915 16:45:22.380"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200915 16:45:22.383" endtime="20200915 16:45:24.580"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200915 16:45:27.593" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200915 16:45:24.581" endtime="20200915 16:45:27.593"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="for-pass"]</arg>
+</arguments>
+<msg timestamp="20200915 16:45:27.593" level="INFO">Clicking element '//*[@id="for-pass"]'.</msg>
+<status status="PASS" starttime="20200915 16:45:27.593" endtime="20200915 16:45:27.746"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200915 16:45:30.748" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200915 16:45:27.746" endtime="20200915 16:45:30.748"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//html/body/div[6]/div[3]/div/div[1]/div/div/input</arg>
+<arg>AAAAAA</arg>
+</arguments>
+<msg timestamp="20200915 16:45:30.748" level="INFO">Typing text 'AAAAAA' into text field '//html/body/div[6]/div[3]/div/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20200915 16:45:30.748" endtime="20200915 16:45:30.919"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200915 16:45:33.935" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200915 16:45:30.920" endtime="20200915 16:45:33.935"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//html/body/div[6]/div[3]/div/div[2]/button[2]/span[1]</arg>
+</arguments>
+<msg timestamp="20200915 16:45:33.935" level="INFO">Clicking element '//html/body/div[6]/div[3]/div/div[2]/button[2]/span[1]'.</msg>
+<status status="PASS" starttime="20200915 16:45:33.935" endtime="20200915 16:45:34.059"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>Invalid email format</arg>
+</arguments>
+<status status="PASS" starttime="20200915 16:45:34.060" endtime="20200915 16:45:34.078"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200915 16:45:39.083" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200915 16:45:34.078" endtime="20200915 16:45:39.083"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="for-pass"]</arg>
+</arguments>
+<msg timestamp="20200915 16:45:39.083" level="INFO">Clicking element '//*[@id="for-pass"]'.</msg>
+<status status="PASS" starttime="20200915 16:45:39.083" endtime="20200915 16:45:39.183"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200915 16:45:42.195" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200915 16:45:39.184" endtime="20200915 16:45:42.195"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//html/body/div[6]/div[3]/div/div[1]/div/div/input</arg>
+<arg>aaaaaa</arg>
+</arguments>
+<msg timestamp="20200915 16:45:42.195" level="INFO">Typing text 'aaaaaa' into text field '//html/body/div[6]/div[3]/div/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20200915 16:45:42.195" endtime="20200915 16:45:42.414"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200915 16:45:45.416" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200915 16:45:42.414" endtime="20200915 16:45:45.416"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//html/body/div[6]/div[3]/div/div[2]/button[2]/span[1]</arg>
+</arguments>
+<msg timestamp="20200915 16:45:45.416" level="INFO">Clicking element '//html/body/div[6]/div[3]/div/div[2]/button[2]/span[1]'.</msg>
+<status status="PASS" starttime="20200915 16:45:45.416" endtime="20200915 16:45:45.538"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>Invalid email format</arg>
+</arguments>
+<status status="PASS" starttime="20200915 16:45:45.538" endtime="20200915 16:45:45.553"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200915 16:45:50.568" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200915 16:45:45.554" endtime="20200915 16:45:50.568"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="for-pass"]</arg>
+</arguments>
+<msg timestamp="20200915 16:45:50.568" level="INFO">Clicking element '//*[@id="for-pass"]'.</msg>
+<status status="PASS" starttime="20200915 16:45:50.568" endtime="20200915 16:45:50.641"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200915 16:45:53.654" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200915 16:45:50.642" endtime="20200915 16:45:53.655"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//html/body/div[6]/div[3]/div/div[1]/div/div/input</arg>
+<arg>12@@ab</arg>
+</arguments>
+<msg timestamp="20200915 16:45:53.656" level="INFO">Typing text '12@@ab' into text field '//html/body/div[6]/div[3]/div/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20200915 16:45:53.656" endtime="20200915 16:45:53.830"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200915 16:45:56.839" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200915 16:45:53.831" endtime="20200915 16:45:56.839"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//html/body/div[6]/div[3]/div/div[2]/button[2]/span[1]</arg>
+</arguments>
+<msg timestamp="20200915 16:45:56.839" level="INFO">Clicking element '//html/body/div[6]/div[3]/div/div[2]/button[2]/span[1]'.</msg>
+<status status="PASS" starttime="20200915 16:45:56.839" endtime="20200915 16:45:56.971"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>Invalid email format</arg>
+</arguments>
+<status status="PASS" starttime="20200915 16:45:56.973" endtime="20200915 16:45:56.988"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200915 16:46:01.996" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200915 16:45:56.989" endtime="20200915 16:46:01.996"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="for-pass"]</arg>
+</arguments>
+<msg timestamp="20200915 16:46:01.996" level="INFO">Clicking element '//*[@id="for-pass"]'.</msg>
+<status status="PASS" starttime="20200915 16:46:01.996" endtime="20200915 16:46:02.080"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200915 16:46:05.087" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200915 16:46:02.081" endtime="20200915 16:46:05.087"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//html/body/div[6]/div[3]/div/div[1]/div/div/input</arg>
+<arg>farook@flairtechno.com</arg>
+</arguments>
+<msg timestamp="20200915 16:46:05.088" level="INFO">Typing text 'farook@flairtechno.com' into text field '//html/body/div[6]/div[3]/div/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20200915 16:46:05.088" endtime="20200915 16:46:05.337"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200915 16:46:08.351" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200915 16:46:05.338" endtime="20200915 16:46:08.352"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//html/body/div[6]/div[3]/div/div[2]/button[2]/span[1]</arg>
+</arguments>
+<msg timestamp="20200915 16:46:08.353" level="INFO">Clicking element '//html/body/div[6]/div[3]/div/div[2]/button[2]/span[1]'.</msg>
+<status status="PASS" starttime="20200915 16:46:08.353" endtime="20200915 16:46:08.458"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>No record of your id in veridic solutions</arg>
+</arguments>
+<status status="PASS" starttime="20200915 16:46:08.459" endtime="20200915 16:46:10.078"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200915 16:46:15.087" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200915 16:46:10.079" endtime="20200915 16:46:15.087"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="for-pass"]</arg>
+</arguments>
+<msg timestamp="20200915 16:46:15.091" level="INFO">Clicking element '//*[@id="for-pass"]'.</msg>
+<status status="PASS" starttime="20200915 16:46:15.090" endtime="20200915 16:46:15.193"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200915 16:46:18.202" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200915 16:46:15.193" endtime="20200915 16:46:18.204"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//html/body/div[6]/div[3]/div/div[1]/div/div/input</arg>
+<arg>farookhs@flairtechno.com</arg>
+</arguments>
+<msg timestamp="20200915 16:46:18.207" level="INFO">Typing text 'farookhs@flairtechno.com' into text field '//html/body/div[6]/div[3]/div/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20200915 16:46:18.207" endtime="20200915 16:46:18.460"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200915 16:46:21.464" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200915 16:46:18.460" endtime="20200915 16:46:21.464"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//html/body/div[6]/div[3]/div/div[2]/button[2]/span[1]</arg>
+</arguments>
+<msg timestamp="20200915 16:46:21.464" level="INFO">Clicking element '//html/body/div[6]/div[3]/div/div[2]/button[2]/span[1]'.</msg>
+<status status="PASS" starttime="20200915 16:46:21.464" endtime="20200915 16:46:21.571"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<msg timestamp="20200915 16:46:21.573" level="FAIL">Keyword 'SeleniumLibrary.Wait Until Page Contains' expected 1 to 3 arguments, got 0.</msg>
+<status status="FAIL" starttime="20200915 16:46:21.572" endtime="20200915 16:46:21.573"></status>
+</kw>
+<status status="FAIL" starttime="20200915 16:45:10.807" endtime="20200915 16:46:21.574" critical="yes">Keyword 'SeleniumLibrary.Wait Until Page Contains' expected 1 to 3 arguments, got 0.</status>
+</test>
+<status status="FAIL" starttime="20200915 16:45:10.638" endtime="20200915 16:46:21.578"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Forgotpasword">Forgotpasword</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

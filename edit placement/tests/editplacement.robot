@@ -1,0 +1,74 @@
+*** Variables ***
+${email}     //*[@id="email"]
+${pasword}  //*[@id="password"]
+${sign in}  //*[@id="root"]/div/div/div/main/div[2]/div/form/button
+${click placements}  //*[@id="root"]/div/div/div/div/div/div/ul/a[13]/li/div[1]
+${input text} //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[1]/div[2]/div/input
+${click pc-14} //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[2]/div/div/div/table/tbody/tr[2]/td[4]/a/div/span
+${click general} //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[1]/div/div[1]/div[1]
+${billable client}  //*[@id="mui-23168"]
+${job title}  //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div/div/div/div/div/form/div/div[2]/div/div/input
+${net terms} //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div/div/div/div/div/form/div/div[3]/div/div/input
+${start date} //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div/div/div/div/div/form/div/div[4]/div/div[1]/div/div/div/button/span[1]/svg
+${end date}  //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div/div/div/div/div/form/div/div[4]/div/div[2]/div/div/div/button/span[1]/svg
+${project end date} //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div/div/div/div/div/form/div/div[4]/div/div[3]/div/div/div/button/span[1]/svg
+${update button} //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div/div/div/div/div/form/button/span[1]
+${click documents} //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[2]/div/div[1]/div[1]
+${document type}  //*[@id="scrollable-force-tabpanel-0"]/div/form/div/div[1]/div/div/div
+${status} //*[@id="scrollable-force-tabpanel-0"]/div/form/div/div[2]/div/div/div
+${start date} //*[@id="scrollable-force-tabpanel-0"]/div/form/div/div[3]/div/div[1]/div/div/button/span[1]/svg
+${end date}  //*[@id="scrollable-force-tabpanel-0"]/div/form/div/div[3]/div/div[3]/div/div/button/span[1]/svg
+${upload document}  //*[@id="scrollable-force-tabpanel-0"]/div/form/div/div[4]/div/label/span/span[1]
+${file name}
+${open button}
+${done button}
+${work location} //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[3]/div/div[1]/div[1]
+${work location type} //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[3]/div/div[2]/div/div/div/div/div/div/form/div/div[1]/div/div/div
+${address line 1}  //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[3]/div/div[2]/div/div/div/div/div/div/form/div/div[4]/div/div/input
+${city}  //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[3]/div/div[2]/div/div/div/div/div/div/form/div/div[6]/div/div/input
+${country} //*[@id="country-select-demo"]
+${state} //*[@id="country-select-demo"]
+${zip code} //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[3]/div/div[2]/div/div/div/div/div/div/form/div/div[9]/div/div/input
+${update button}  //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[3]/div/div[2]/div/div/div/div/div/div/form/button/span[1]
+${time sheets details}  //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[4]/div/div[1]/div[1]
+${timesheets cycle}  //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[4]/div/div[2]/div/div/div/div/div/div/form/div/div[1]/div/div/div
+${week start date} //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[4]/div/div[2]/div/div/div/div/div/div/form/div/div[2]/div/div/div
+${aproval by}  //*[@id="mui-9892"]
+${implementation date}  //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[4]/div/div[2]/div/div/div/div/div/div/form/div/div[5]/div/div/div/button/span[1]/svg
+${project} //*[@id="mui-21177"]
+${update button} //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[3]/div[4]/div/div[2]/div/div/div/div/div/div/form/button/span[1]
+${client details}  //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[4]/div[1]/div/div[1]/div[1]
+${client}  //*[@id="scrollable-force-tabpanel-0"]/div/div/div/form/div[1]/div[1]/div/div/input
+${client} //*[@id="scrollable-force-tabpanel-0"]/div/div/div/form/div[1]/div[4]/div/div/input
+${address}  //*[@id="address-select-demo"]
+${save} //*[@id="scrollable-force-tabpanel-0"]/div/div/div/form/div[2]/button/span[1]
+${update} //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[4]/div[1]/div/div[2]/div/div/div/div/div/div/div/div[2]/button/span[1]
+${invoices}  //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[4]/div[2]/div/div[1]/div[1]
+${frequency}  //*[@id="mui-component-select-frequency"]
+${frequency start date}  //*[@id="scrollable-force-tabpanel-0"]/div/div/div[2]/div/div/div/button/span[1]/svg
+${update button} //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[4]/div[2]/div/div[2]/div/div/div/div/div/div/form/button/span[1]
+${billing and notifications contacts} //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[4]/div[2]/div/div[2]/div/div/div/div/div/div/form/div[1]/div[3]/div/button[2]/span[1]
+${contact name}  //*[@id="scrollable-force-tabpanel-1"]/div/div/div[1]/div/div/input
+${contact phone number} //*[@id="scrollable-force-tabpanel-1"]/div/div/div[2]/div/div/input
+${contact mail id}  //*[@id="scrollable-force-tabpanel-1"]/div/div/div[3]/div/div/input
+${to}  //*[@id="scrollable-force-tabpanel-1"]/div/div/div[3]/div/div/input
+${billing address} //*[@id="scrollable-force-tabpanel-1"]/div/div/div[7]/textarea[1]
+${updatde button} //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[4]/div[2]/div/div[2]/div/div/div/div/div/div/form/button/span[1]
+${recruitment details}  //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[4]/div[3]/div/div[1]/div[1]
+${add employe}  //*[@id="mui-63141"]
+${update button}   //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[4]/div[3]/div/div[2]/div/div/div/div/div/div/form/div/div[2]/button
+${expense details} //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[4]/div[4]/div/div[1]/div[1]
+${add employe}  //*[@id="mui-55102"]
+${update buton}  //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[4]/div[4]/div/div[2]/div/div/div/div/div/div/form/div/div[2]/button
+${payments}  //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[5]/div/div[1]/div[1]
+${billing type}  //*[@id="scrollable-force-tabpanel-0"]/div/div/div[1]/div/div/div
+${billing rate}  //*[@id="scrollable-force-tabpanel-0"]/div/div/div[2]/div/div/input
+${done}  //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[5]/div/div[2]/div/div/div/div/div/div/div/form/button/span[1]
+${pay rate}  //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[5]/div/div[2]/div/div/div/div/div/div/div/form/div[1]/div[2]/div/button[2]/span[1]
+${pay type}  //*[@id="scrollable-force-tabpanel-1"]/div/div/div[1]/div/div/div
+${percentage}  //*[@id="scrollable-force-tabpanel-1"]/div/div/div[2]/div/div/input
+${start date} //*[@id="scrollable-force-tabpanel-1"]/div/div/div[5]/div/div[1]/div/div/button/span[1]/svg
+${end date}  //*[@id="scrollable-force-tabpanel-1"]/div/div/div[5]/div/div[3]/div/div/button/span[1]/svg
+${done}  //*[@id="root"]/div/div/div/div/main/div[3]/div[2]/div/div/div/div[1]/div[5]/div/div[2]/div/div/div/div/div/div/div/form/button/span[1]
+
+
